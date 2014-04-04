@@ -47,5 +47,6 @@ void test_akari(void) {
 	assert(isIlluminated(test, std::make_pair(1, 0), lights) == true);
 	assert(isIlluminated(test, std::make_pair(1, 1), lights) == true);
 	assert(isIlluminated(test, std::make_pair(3, 3), lights) == false);
+	assert(isIlluminated(test, std::make_pair(1, 5), lights) == false);
 
 }
